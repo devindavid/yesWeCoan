@@ -1,0 +1,24 @@
+<div class="row">
+    <div>
+        <h1>COANify</h1>
+        <h3>your Facebook photo!</h3>
+    </div>
+    <% if current_user %>
+    <div class="fbUserID">
+    <ul>
+    <li>
+        <%= image_tag current_user[:image_url], width: 50, align: 'right' %>       
+    </li>
+    <li>
+    <small>
+        <%= current_user[:name] %><br/>
+        <p><%= link_to 'Logout', logout_path, method: :delete %></p>
+    </small>
+    </li>
+    </ul>
+        <% else %>
+        <div id="loginButton">
+            <%= link_to "Login with Facebook", auth_provider_url, class: 'btn btn-success btn-lg fbicon' %></div>
+  </div>
+    <% end %>
+</div>

@@ -1,0 +1,20 @@
+<div class="row coanified">
+  <ul>
+    <li class="coanImage"><% @overlay_images.each do |image|  %>
+      <p><%= image_tag "https://s3-us-west-2.amazonaws.com/coan2/#{current_user.uid}_#{image}",
+              class: 'img-responsive', data: {action: 'zoom'} %></p>
+    </li>
+    <li class="buttons">
+        <h4 class="instructions">
+        Thanks so much for the support! Before posting to Facebook, feel free to copy the below text to add to your caption on Facebook.
+        </h4>
+        <h5 class="fbcaption">I'm with Coan! Visit www.CoanForMetroCouncil.com, and remember to vote for Brandon on Tuesday! #YesWeCoan
+        </h5>
+        <%= link_to 'Post to Facebook', publish_path(image: image.split('.').first),
+            class: 'btn btn-primary btn-block fbicon', target: '_blank' %>
+        <%= link_to 'Download', download_path(image: image.split('.').first),
+            class: "btn btn-success btn-block downloadicon" %>
+        <% end %>
+    </li>
+    </ul>
+</div>

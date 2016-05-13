@@ -1,0 +1,233 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,600,800,700);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css);
+
+html, body {
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ADDCCF; 
+    color: #1F344C
+}
+#tiles {
+    width: 100%;
+    position: relative;
+    height: auto;
+}
+#loginButton a {
+    margin: 20px 20% 0;
+    width: 60%;
+    padding:12px;
+}
+.coangrid {
+    position: absolute;
+    text-align: center;
+    margin: 30px auto 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    max-width: 900px;
+}
+.coangrid > li {
+    display: inline-block;
+    position: relative;
+    margin: 5px;
+}
+#wrapper {
+    position: relative;
+}
+header {
+    width: 100%;
+    min-height: 100px;
+}
+.row {
+    width: 100%;
+    margin:0;
+}
+h1 {
+    color:#F27121;
+    font-size: 62px;
+    letter-spacing: .5em;
+    font-weight: 800;
+    text-align: center;
+    transform: translateX(0.25em);
+    -webkit-transform: translateX(0.25em);
+}
+h3 {
+    font-size: 38px;
+    font-weight: 600;
+    text-align: center;
+}
+ul {
+    list-style: none;
+    padding: 0!important;
+}
+.fbUserID {
+    position: relative;
+    height:120px;
+}
+.fbUserID ul {
+    position: absolute;
+    right: -25px;
+    display: block;
+    float: right;
+}
+.fbUserID ul li {
+    float: right;
+    display: inline-block;
+}
+.fbUserID ul li img {
+    width: 80px;
+    height: 80px;
+}
+.center {text-align: center;}
+#content { padding-bottom: 50px; 
+}
+  small {
+    font-weight: 300;
+    font-size: 18px;
+    float: left;
+    max-width: 180px;
+    max-height: 80px;
+    text-align: right;
+    padding: 10px 15px;
+    p {
+      font-size: 14px;
+      font-weight: normal;
+      padding: 4px 0;
+    }
+  }
+.coanified {
+    width: 100%;
+}
+.coanified > ul {
+    position: relative;
+    display: block;
+    margin: 0;
+    left: 0;
+    right: 0;
+}
+.coanified > ul > li { 
+    position: absolute;
+    display: inline-block;
+}
+.instructions{
+    width: 100%;
+    line-height: 21px;
+    margin-bottom: 5%;
+}
+.fbcaption {
+    width: 100%;
+    padding: 5%;
+    margin: 5% 0;
+    background-color: #EAF4F6;
+}
+.coanImage {
+    width: 50%;
+    padding: 5%;
+    margin: 0!important;
+}
+.buttons {
+    width: 50%;
+    padding: 5%;
+    margin:0;
+    right: 0;
+}
+a.btn, a.btn-success, a.btn-block {
+    width: 100%;
+    padding: 5% 0;
+    margin: 5% 0;
+    border-width: 0;
+    border-style: none;
+    font-size: 20px!important;
+    font-weight: 700;
+    color: #EAF4F6;
+    background-color: #F27121;
+    transition: all .2s;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -ms-transition: all .2s;
+    -o-transition: all .2s;
+}
+a.fbicon:before {
+    content: "\f230  ";
+    font-family: FontAwesome;
+    font-weight: normal;
+}
+a.downloadicon:before {
+    content: "\f019  ";
+    font-family: FontAwesome;
+    font-weight: normal;
+}
+a.btn:hover {
+    background: #F27121;
+    color: #EAF4F6;
+}
+footer {
+    display: none;
+}
+@media only screen 
+    and (max-width: 1200px) {
+    #loginButton a {
+    margin: 20px 15% 0;
+    width: 70%;
+    padding:12px;
+}
+    .coangrid {
+        max-width: 650px;
+        }
+    .coangrid img {
+    width:150px;
+    height:150px;
+    }
+}
+@media only screen 
+    and (max-width: 600px) {
+    #loginButton a {
+    margin: 20px 10% 0;
+    width: 80%;
+    padding:12px;
+}
+    h1 {
+    color:#F27121;
+    font-size: 44px;
+    letter-spacing: .5em;
+    font-weight: 800;
+    text-align: center;
+    transform: translateX(0.25em);
+    -webkit-transform: translateX(0.25em);
+}
+h3 {
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+}
+    .coanified > ul > li { 
+    position: relative;
+    display: block;
+    margin: 0;
+}
+    .coanImage {
+    width: 100%;
+    padding: 5%;
+}
+    .buttons {
+    width: 100%;
+    padding: 0;
+    right: 0;
+}
+    .instructions{
+    width: 100%;
+    line-height: 21px;
+    margin-left: 0;
+}
+    .coangrid {
+    max-width: 450px;
+        }
+    .coangrid img {
+    width:100px;
+    height:100px;
+    }
+        
+}
+
