@@ -64,7 +64,7 @@ ul {
 }
 .fbUserID {
     position: relative;
-    padding-top: 20px;
+    padding-top: 10px;
     height:100px;
 }
 .fbUserID ul {
@@ -115,7 +115,7 @@ ul {
 .instructions{
     width: 100%;
     line-height: 21px;
-    margin-bottom: 5%;
+    margin: 0 5% 5%;
 }
 .fbcaption {
     width: 100%;
@@ -188,9 +188,9 @@ footer {
     .container {
     padding: 0;
     }
-        .fbUserID ul {
-            right: 0;
-        }
+    .fbUserID ul {
+    right: 15px;
+    }
     #loginButton a {
     margin: 20px 10% 0;
     width: 80%;
