@@ -64,7 +64,8 @@ ul {
 }
 .fbUserID {
     position: relative;
-    height:120px;
+    padding-top: 20px;
+    height:100px;
 }
 .fbUserID ul {
     position: absolute;
@@ -182,7 +183,14 @@ footer {
     }
 }
 @media only screen 
-    and (max-width: 600px) {
+    and (max-width: 767px) {
+        
+    .container {
+    padding: 0;
+    }
+        .fbUserID ul {
+            right: 0;
+        }
     #loginButton a {
     margin: 20px 10% 0;
     width: 80%;
@@ -190,7 +198,7 @@ footer {
 }
     h1 {
     color:#F27121;
-    font-size: 44px;
+    font-size: 38px;
     letter-spacing: .5em;
     font-weight: 800;
     text-align: center;
@@ -198,7 +206,7 @@ footer {
     -webkit-transform: translateX(0.25em);
 }
 h3 {
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 600;
     text-align: center;
 }
