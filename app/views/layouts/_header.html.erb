@@ -17,6 +17,8 @@
     </li>
     </ul>
         <% else %>
+        <div class="welcomeText">
+        <h4>Click "Login with Facebook" will retrieve your <span style="font-weight:bold;">current profile photo</span> and add a sweet COAN overlay to it. You will be able to review the image before posting or downloading. </h4></div>
         <div id="loginButton">
             <%= link_to "Login with Facebook", auth_provider_url, class: 'btn btn-success btn-lg fbicon' %></div>
   </div>
