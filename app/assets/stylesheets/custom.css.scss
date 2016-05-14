@@ -198,7 +198,8 @@ button.close {
     position: absolute;
     font-size: 50px;
     line-height:0px;
-    padding: 15px;
+    padding: 30px 15px;
+    margin-right: -60px;
 }
 button.close:before {
     content: "  \f00d";
