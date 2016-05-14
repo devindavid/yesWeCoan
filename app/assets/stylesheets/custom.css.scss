@@ -286,8 +286,104 @@ button.close:focus {
 }
 
 footer {
+<<<<<<< HEAD
 	display: none;
 }
+=======
+    display: none;
+}
+@media only screen 
+    and (max-width: 1200px) {
+        
+    .welcomeText {
+    margin: 20px 10% 0;
+    width: 80%;
+}    
+    #loginButton a {
+    margin: 20px 15% 0;
+    width: 70%;
+    padding:12px;
+}
+    .coangrid {
+        max-width: 700px;
+        }
+    .coangrid img {
+    width:150px;
+    height:150px;
+    }
+    .alert, .alert-success, .alert-dismissible {
+    font-size:20px;
+    padding: 20px 100px 20px 25px;
+}
+    button.close {
+    position: absolute;
+    line-height:59px;
+}
+}
+@media only screen 
+    and (max-width: 767px) {
+        
+    .container {
+    width: 100%!important;
+    padding: 0;
+    }
+    .fbUserID ul {
+    right: 15px;
+    }
+    #loginButton a {
+    margin: 20px 10% 0;
+    width: 80%;
+    padding:12px;
+}
+    h1 {
+    color:#F27121;
+    font-size: 38px;
+    letter-spacing: .5em;
+    font-weight: 800;
+    text-align: center;
+    transform: translateX(0.25em);
+    -webkit-transform: translateX(0.25em);
+}
+    h3 {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+    .coanified > ul > li { 
+    position: relative;
+    display: block;
+    margin: 0;
+}
+    .coanImage {
+    width: 100%;
+    padding: 5% 15%;
+}
+    .buttons {
+    width: 100%;
+    padding: 0;
+    right: 0;
+}
+    .instructions, .postNote {
+    padding: 0 5%;
+    width: 100%;
+    line-height: 21px;
+}
+    .coangrid {
+    max-width: 500px;
+        }
+    .coangrid img {
+    width:100px;
+    height:100px;
+    }
+    .alert, .alert-success, .alert-dismissible {
+    font-size:20px;
+    padding: 20px 70px 20px 10px;
+}
+}
+
+@media only screen 
+    and (max-width: 414px) {
+>>>>>>> parent of 7d63004... sty
 
 @media only screen and (max-width: 1200px) {
 	.welcomeText {
