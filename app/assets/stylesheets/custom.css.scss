@@ -224,6 +224,11 @@ button.close:hover {
 button.close:focus {
     outline:0;
 }
+.copyBttn:before {
+    content: "  \f0ea";
+    font-family: FontAwesome;
+    font-weight: normal;
+}
 footer {
     display: none;
 }
