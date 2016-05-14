@@ -186,6 +186,7 @@ a.btn:hover {
     color: #EAF4F6;
 }
 .alert, .alert-success, .alert-dismissible {
+
     font-size:21px;
     font-weight: 500;
     color:#F27121;
@@ -201,7 +202,10 @@ button.close {
     font-size: 50px;
     line-height:62px;
     padding: 0 15px;
-    margin: -15px -60px 0 0;
+    margin:-60px 0 0;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
 }
 button.close:before {
     content: "  \f00d";
@@ -209,6 +213,7 @@ button.close:before {
     font-weight: normal;
 }
 button.close:hover {
+    color:#55686D!important;
     opacity: 0.5;
 }
 button.close:focus {
