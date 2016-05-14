@@ -181,11 +181,6 @@ a.downloadicon:before {
     font-family: FontAwesome;
     font-weight: normal;
 }
-.postNote:after {
-    content: "  \f071";
-    font-family: FontAwesome;
-    font-weight: normal;
-}
 a.btn:hover {
     background: #F27121;
     color: #EAF4F6;
@@ -197,9 +192,9 @@ a.btn:hover {
 button.close {
     position: absolute;
     font-size: 50px;
-    line-height:0px;
+    line-height:62px;
     padding: 30px 15px;
-    margin-right: -60px;
+    margin: -30px -60px 0 0;
 }
 button.close:before {
     content: "  \f00d";
@@ -235,6 +230,10 @@ footer {
     font-size:19px;
     padding: 15px 100px 15px 25px;
 }
+    button.close {
+    position: absolute;
+    line-height:59px;
+}
 }
 @media only screen 
     and (max-width: 767px) {
@@ -260,7 +259,7 @@ footer {
     transform: translateX(0.25em);
     -webkit-transform: translateX(0.25em);
 }
-h3 {
+    h3 {
     font-size: 24px;
     font-weight: 600;
     text-align: center;
@@ -294,12 +293,6 @@ h3 {
     .alert, .alert-success, .alert-dismissible {
     font-size:19px;
     padding: 15px 70px 15px 10px;
-}
-    button.close {
-    position: absolute;
-    font-size: 50px;
-    line-height:0px;
-    padding: 15px;
 }
 }
 
