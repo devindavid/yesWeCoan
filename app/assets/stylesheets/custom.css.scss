@@ -134,7 +134,7 @@ ul {
 .fbcaption {
     width: 100%;
     padding: 5%;
-    margin: 5% 0;
+    margin-bottom: 5%;
     background-color: rgba(234,244,246,0.7);
 }
 .coanImage {
@@ -223,6 +223,15 @@ button.close:hover {
 }
 button.close:focus {
     outline:0;
+}
+.copyBttn{
+    width: 100%;
+    padding: 2%;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: .2px;
+    background-color: #F27121;
+    color: #FFFFFF;
 }
 .copyBttn:before {
     content: "  \f0ea";
