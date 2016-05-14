@@ -192,7 +192,7 @@ a.btn:hover {
 }
 .alert, .alert-success, .alert-dismissible {
     font-size:21px;
-    padding: 15px 50px;
+    padding: 15px 50px 15px 100px ;
 }
 button.close {
     position: absolute;
@@ -232,8 +232,7 @@ footer {
     }
     .alert, .alert-success, .alert-dismissible {
     font-size:19px;
-    padding: 15px 25px;
-}
+    padding: 15px 25px 15px 100px ;
 }
         
 @media only screen 
@@ -292,10 +291,15 @@ h3 {
     height:100px;
     }
     .alert, .alert-success, .alert-dismissible {
-    font-size:18px;
-    padding: 15px 10px;
+    font-size:19px;
+    padding: 15px 10x 15px 70px ;
 }
-        
+    button.close {
+    position: absolute;
+    font-size: 40px;
+    line-height:0px;
+    padding: 10px 30px;
+}
 }
 
 @media only screen 
