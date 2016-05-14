@@ -187,9 +187,12 @@ a.btn:hover {
 }
 .alert, .alert-success, .alert-dismissible {
     font-size:21px;
-    font-weight: 500;
+    font-weight: 700;
     color:#ADDCCF;
     padding: 15px 100px 15px 50px;
+    border-width: 0px;
+    background-color: #EAF4F6;
+    
 }
 button.close {
     position: absolute;
@@ -202,6 +205,9 @@ button.close:before {
     content: "  \f00d";
     font-family: FontAwesome;
     font-weight: normal;
+}
+button.close:hover {
+    color:#E3E5E9;
 }
 button.close:focus {
     outline:0;
