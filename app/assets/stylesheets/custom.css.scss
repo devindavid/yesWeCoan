@@ -191,11 +191,11 @@ a.btn:hover {
     color: #EAF4F6;
 }
 .alert, .alert-success, .alert-dismissible {
-    font-size:20px;
-    padding-left: 30px;
+    font-size:24px;
+    padding: 15px 50px;
 }
-.close {
-    font-size: 40px;
+button.close {
+    font-size: 60px;
     line-height: 40px;
     padding: 10px 30px;
 }
