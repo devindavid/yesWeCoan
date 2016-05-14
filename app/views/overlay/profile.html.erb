@@ -10,7 +10,7 @@
         </h4>
         <h5 class="fbcaption">I'm with Coan! Please visit www.CoanForMetroCouncil.com, and remember to vote for Brandon on Tuesday! #YesWeCoan
         </h5>
-        <h4 class="postNote">
+        <h4 id="copyBox" class="postNote">
             Pending approval from Facebook, the "Post to Facebook" feature may not be available without testing permissions. You may download the image and upload it to Facebook the old-fashioned way.
         </h4>
         <%= link_to 'Post to Facebook', publish_path(image: image.split('.').first),
@@ -21,3 +21,36 @@
     </li>
     </ul>
 </div>
+
+<script type="text/javascript">
+        if (window.getSelection) {
+          if (window.getSelection().empty) {
+                function selectText("copyBox") {
+                    if (document.selection) {
+                        var range = document.body.createTextRange();
+                        range.moveToElementText(document.getElementById("copyBox"));
+                        range.select();
+                    } else if (window.getSelection) {
+                        var range = document.createRange();
+                        range.selectNode(document.getElementById("copyBox"));
+                        window.getSelection().addRange(range);
+                    }
+                };
+          } else if (this.getSelection().toString()==true) {
+                this.onClick(
+                    window.getSelection().removeAllRanges()
+                )
+          }
+          };
+    function selectText("copyBox") {
+        if (document.selection) {
+            var range = document.body.createTextRange();
+            range.moveToElementText(document.getElementById("copyBox"));
+            range.select();
+        } else if (window.getSelection) {
+            var range = document.createRange();
+            range.selectNode(document.getElementById("copyBox"));
+            window.getSelection().addRange(range);
+        }
+    };
+    </script>
