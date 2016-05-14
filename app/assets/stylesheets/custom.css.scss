@@ -199,6 +199,13 @@ button.close {
     line-height: 40px;
     padding: 10px 30px;
 }
+button.close:before {
+    content: "  \f00d";
+    font-family: FontAwesome;
+    font-weight: normal;
+}
+
+}
 footer {
     display: none;
 }
