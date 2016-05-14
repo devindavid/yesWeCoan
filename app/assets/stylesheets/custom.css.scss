@@ -171,6 +171,19 @@ a.downloadicon:before {
     font-family: FontAwesome;
     font-weight: normal;
 }
+.postNote {
+    color:#F27121;
+}
+.postNote:before {
+    content: "\f071  ";
+    font-family: FontAwesome;
+    font-weight: normal;
+}
+.postNote:after {
+    content: "  \f071";
+    font-family: FontAwesome;
+    font-weight: normal;
+}
 a.btn:hover {
     background: #F27121;
     color: #EAF4F6;
