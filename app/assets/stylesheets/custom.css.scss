@@ -1,295 +1,251 @@
-@import  bootstrap-sprockets;
-@import  bootstrap;
-@import  "https://fonts.googleapis.com/css?family=Open+Sans:300,600,800,700";
-@import  "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css";
-html,body {
-	height: 100%;
-	font-family: 'Open Sans',sans-serif;
-	background-color: #ADDCCF;
-	color: #1F344C;
-	-webkit-font-smoothing: antialiased;
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,600,800,700);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css);
+
+html, body {
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ADDCCF; 
+    color: #1F344C;
+    -webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	letter-spacing: .01em;
+    letter-spacing: .01em;
 }
-
 .container {
-	width: 90% !important;
+    width: 90%!important;
 }
-
 #tiles {
-	width: 100%;
-	position: relative;
-	height: auto;
+    width: 100%;
+    position: relative;
+    height: auto;
 }
-
 .welcomeText {
-	margin: 20px 15% 0;
-	width: 70%;
+    margin: 20px 15% 0;
+    width: 70%;
 }
-
 #loginButton a {
-	margin: 20px 20% 0;
-	width: 60%;
-	padding: 12px;
-	border-radius: 4px;
+    margin: 20px 20% 0;
+    width: 60%;
+    padding:12px;
+    border-radius: 4px;
 }
-
 .coangrid {
-	position: absolute;
-	text-align: center;
-	margin: 10px auto 0;
-	left: 0;
-	right: 0;
-	width: 100%;
-	max-width: 860px;
+    position: absolute;
+    text-align: center;
+    margin: 10px auto 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    max-width: 860px;
 }
-
 .coangrid > li {
-	display: inline-block;
-	position: relative;
-	margin: 5px;
+    display: inline-block;
+    position: relative;
+    margin: 5px;
 }
-
 #wrapper {
-	position: relative;
+    position: relative;
 }
-
 header {
-	width: 100%;
-	min-height: 100px;
+    width: 100%;
+    min-height: 100px;
 }
-
 .row {
-	width: 100%;
-	margin: 0;
+    width: 100%;
+    margin:0;
 }
-
 h1 {
-	color: #F27121;
-	font-size: 62px;
-	letter-spacing: .5em;
-	font-weight: 800;
-	text-align: center;
-	transform: translateX(0.25em);
-	-webkit-transform: translateX(0.25em);
+    color:#F27121;
+    font-size: 62px;
+    letter-spacing: .5em;
+    font-weight: 800;
+    text-align: center;
+    transform: translateX(0.25em);
+    -webkit-transform: translateX(0.25em);
 }
-
 h3 {
-	font-size: 38px;
-	font-weight: 600;
-	text-align: center;
-	margin-top: 10px;
+    font-size: 38px;
+    font-weight: 600;
+    text-align: center;
+    margin-top:10px;
 }
-
 h4 {
-	line-height: 22px;
+    line-height: 22px;
 }
-
 ul {
-	list-style: none;
-	padding: 0 !important;
+    list-style: none;
+    padding: 0!important;
 }
-
 .fbUserID {
-	position: relative;
-	padding-top: 10px;
-	height: 100px;
+    position: relative;
+    padding-top: 10px;
+    height:100px;
 }
-
 .fbUserID ul {
-	position: absolute;
-	right: -15px;
-	display: block;
-	float: right;
+    position: absolute;
+    right: -15px;
+    display: block;
+    float: right;
 }
-
 .fbUserID ul li {
-	float: right;
-	display: inline-block;
+    float: right;
+    display: inline-block;
 }
-
 .fbUserID ul li img {
-	width: 80px;
-	height: 80px;
+    width: 80px;
+    height: 80px;
 }
-
-.center {
-	text-align: center;
+.center {text-align: center;}
+#content { padding-bottom: 50px; 
 }
-
-#content {
-	padding-bottom: 50px;
-}
-
-small {
-	font-weight: 300;
-	font-size: 18px;
-	float: left;
-	max-width: 180px;
-	max-height: 80px;
-	text-align: right;
-	padding: 10px 15px;
-	pfont-size: 14px;
-	font-weight: 400;
-	padding: 4px 0;
-}	
-}
-
+  small {
+    font-weight: 300;
+    font-size: 18px;
+    float: left;
+    max-width: 180px;
+    max-height: 80px;
+    text-align: right;
+    padding: 10px 15px;
+    p {
+      font-size: 14px;
+      font-weight: normal;
+      padding: 4px 0;
+    }
+  }
 .coanified {
-	width: 100%;
+    width: 100%;
 }
-
 .coanified > ul {
-	position: relative;
-	display: block;
-	margin: 0;
-	left: 0;
-	right: 0;
+    position: relative;
+    display: block;
+    margin: 0;
+    left: 0;
+    right: 0;
 }
-
-.coanified > ul > li {
-	position: absolute;
-	display: inline-block;
+.coanified > ul > li { 
+    position: absolute;
+    display: inline-block;
 }
-
-.instructions {
-	width: 100%;
-	padding: 0;
-	margin: 0 0 5%;
+.instructions{
+    width: 100%;
+    padding: 0;
+    margin:0 0 5%;
 }
-
 .fbcaption {
-	font-size: 16px;
-	width: 100%;
-	padding: 5%;
-	margin: 0 0 5%;
-	background-color: rgba(234,244,246,0.7);
-	letter-spacing: .01em;
+    font-size: 16px;
+    width: 100%;
+    padding: 5%;
+    margin: 0 0 5% 0;
+    background-color: rgba(234,244,246,0.7);
+    letter-spacing: .01em;
 }
-
 .coanImage {
-	width: 50%;
-	padding: 5% 5% 0 0;
-	margin: 0 !important;
+    width: 50%;
+    padding: 5% 5% 0 0;
+    margin: 0!important;
 }
-
 .buttons {
-	width: 50%;
-	padding-top: 5%;
-	margin: 0;
-	right: 0;
+    width: 50%;
+    padding-top: 5%;
+    margin:0;
+    right: 0;
 }
-
-a.btn,a.btn-success,a.btn-block {
-	width: 100%;
-	padding: 5% 0;
-	margin: 5% 0;
-	border-width: 0;
-	border-style: none;
-	font-size: 20px !important;
-	font-weight: 700;
-	letter-spacing: 1.5px;
-	text-transform: uppercase;
-	color: #EAF4F6;
-	background-color: #F27121;
-	transition: all .2s;
-	-webkit-transition: all .2s;
-	-moz-transition: all .2s;
-	-ms-transition: all .2s;
-	-o-transition: all .2s;
+a.btn, a.btn-success, a.btn-block {
+    width: 100%;
+    padding: 5% 0;
+    margin: 5% 0;
+    border-width: 0;
+    border-style: none;
+    font-size: 20px!important;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #EAF4F6;
+    background-color: #F27121;
+    transition: all .2s;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -ms-transition: all .2s;
+    -o-transition: all .2s;
 }
-
 a.fbicon:before {
-	content: "\f230  ";
-	font-family: FontAwesome;
-	font-weight: 400;
+    content: "\f230  ";
+    font-family: FontAwesome;
+    font-weight: normal;
 }
-
 a.downloadicon:before {
-	content: "\f019  ";
-	font-family: FontAwesome;
-	font-weight: 400;
+    content: "\f019  ";
+    font-family: FontAwesome;
+    font-weight: normal;
 }
-
 .postNote {
-	font-weight: 600;
-	color: #F27121;
+    font-weight: 600;
+    color:#F27121;
 }
-
 .postNote:before {
-	content: "\f071  ";
-	font-family: FontAwesome;
-	font-weight: 400;
+    content: "\f071  ";
+    font-family: FontAwesome;
+    font-weight: normal;
 }
-
 a.btn:hover {
-	background: #F27121;
-	color: #EAF4F6;
+    background: #F27121;
+    color: #EAF4F6;
 }
-
-.alert,.alert-success,.alert-dismissible {
-	position: relative;
-	font-size: 20px;
-	line-height: 20px;
-	font-weight: 500;
-	color: #F27121;
-	padding: 20px 100px 20px 50px;
-	border-width: 0;
-	background-color: rgba(234,244,246,0.7);
+.alert, .alert-success, .alert-dismissible {
+    position: relative;
+    font-size:20px;
+    line-height:20px;
+    font-weight: 500;
+    color:#F27121;
+    padding: 20px 100px 20px 50px;
+    border-width: 0px;
+    background-color: rgba(234,244,246,0.7);
+    
 }
-
 button.close {
-	position: absolute !important;
-	color: #ADDCCF !important;
-	opacity: 1;
-	font-size: 50px;
-	line-height: 60px !important;
-	padding: 0 15px;
-	margin: 0;
-	top: 50% !important;
-	right: 0 !important;
-	transform: translateY(-50%);
-	-webkit-transform: translateY(-50%);
+    position: absolute!important;
+    color:#ADDCCF!important;
+    opacity: 1;
+    font-size: 50px;
+    line-height:60px!important;
+    padding: 0 15px;
+    margin:0 0 0 0;
+    top: 50%!important;
+    right:0!important;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+ 
 }
-
 button.close:before {
-	content: "  \f00d";
-	font-family: FontAwesome;
-	font-weight: 400;
+    content: "  \f00d";
+    font-family: FontAwesome;
+    font-weight: normal;
 }
-
 button.close:hover {
-	color: #55686D !important;
-	opacity: .5;
+    color:#55686D!important;
+    opacity: 0.5;
 }
-
 button.close:focus {
-	outline: 0;
+    outline:0;
 }
-
-.copyBttn {
-	width: 100%;
-	padding: 2%;
-	text-align: center;
-	font-weight: 600;
-	letter-spacing: 1px;
-	background-color: #F27121;
-	color: #FFF;
-	border-width: 0;
-	border-radius: 4px;
+.copyBttn{
+    width: 100%;
+    padding: 2%;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background-color: #F27121;
+    color: #FFFFFF;
+    border-width: 0;
+    border-radius: 4px;
 }
-
 .copyBttn:before {
-	content: "  \f0ea";
-	font-family: FontAwesome;
-	font-weight: 400;
+    content: "  \f0ea";
+    font-family: FontAwesome;
+    font-weight: normal;
 }
-
 footer {
-<<<<<<< HEAD
-	display: none;
-}
-=======
     display: none;
 }
 @media only screen 
@@ -337,7 +293,7 @@ footer {
 }
     h1 {
     color:#F27121;
-    font-size: 38px;
+    font-size: 50px;
     letter-spacing: .5em;
     font-weight: 800;
     text-align: center;
@@ -345,7 +301,7 @@ footer {
     -webkit-transform: translateX(0.25em);
 }
     h3 {
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 600;
     text-align: center;
 }
@@ -383,118 +339,14 @@ footer {
 
 @media only screen 
     and (max-width: 414px) {
->>>>>>> parent of 7d63004... sty
-
-@media only screen and (max-width: 1200px) {
-	.welcomeText {
-		margin: 20px 10% 0;
-		width: 80%;
-	}
-
-	#loginButton a {
-		margin: 20px 15% 0;
-		width: 70%;
-		padding: 12px;
-	}
-
-	.coangrid {
-		max-width: 700px;
-	}
-
-	.coangrid img {
-		width: 150px;
-		height: 150px;
-	}
-
-	.alert,.alert-success,.alert-dismissible {
-		font-size: 20px;
-		padding: 20px 100px 20px 25px;
-	}
-
-	button.close {
-		position: absolute;
-		line-height: 59px;
-	}
-}
-
-@media only screen and (max-width: 767px) {
-	.container {
-		width: 100% !important;
-		padding: 0;
-	}
-
-	.fbUserID ul {
-		right: 15px;
-	}
-
-	#loginButton a {
-		margin: 20px 10% 0;
-		width: 80%;
-		padding: 12px;
-	}
-
 	h1 {
-		color: #F27121;
-		font-size: 50px;
-		letter-spacing: .5em;
-		font-weight: 800;
-		text-align: center;
-		transform: translateX(0.25em);
-		-webkit-transform: translateX(0.25em);
+        font-size: 38px;
+        }
+    h3 {
+        font-size: 24px;
 	}
-
-	h3 {
-		font-size: 30px;
-		font-weight: 600;
-		text-align: center;
-	}
-
-	.coanified > ul > li {
-		position: relative;
-		display: block;
-		margin: 0;
-	}
-
-	.coanImage {
-		width: 100%;
-		padding: 5% 15%;
-	}
-
-	.buttons {
-		width: 100%;
-		padding: 0;
-		right: 0;
-	}
-
-	.instructions,.postNote {
-		padding: 0 5%;
-		width: 100%;
-		line-height: 21px;
-	}
-
-	.coangrid {
-		max-width: 500px;
-	}
-
-	.coangrid img {
-		width: 100px;
-		height: 100px;
-	}
-
-	.alert,.alert-success,.alert-dismissible {
-		font-size: 20px;
-		padding: 20px 70px 20px 10px;
-	}
+.coanImage {
+    width: 100%;
+    padding: 5% 15%;
 }
-
-@media only screen and (max-width: 414px) {
-	h1 {
-		font-size: 38px;
-		h3font-size: 24px;
-	}
-
-	.coanImage {
-		width: 100%;
-		padding: 5% 15%;
-	}
 }
