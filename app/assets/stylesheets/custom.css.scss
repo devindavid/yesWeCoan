@@ -10,7 +10,7 @@ html, body {
     color: #1F344C;
     -webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-    letter-spacing: .02em;
+    letter-spacing: .01em;
 }
 .container {
     width: 90%!important;
@@ -138,6 +138,7 @@ ul {
     padding: 5%;
     margin: 0 0 5% 0;
     background-color: rgba(234,244,246,0.7);
+    letter-spacing: .01em;
 }
 .coanImage {
     width: 50%;
