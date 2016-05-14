@@ -195,9 +195,10 @@ a.btn:hover {
     padding: 15px 50px;
 }
 button.close {
-    font-size: 60px;
+    position: absolute;
+    font-size: 50px;
     line-height:10px;
-    padding: 10px 30px;
+    padding: 15px 30px;
 }
 button.close:before {
     content: "  \f00d";
@@ -226,6 +227,10 @@ footer {
     width:150px;
     height:150px;
     }
+    .alert, .alert-success, .alert-dismissible {
+    font-size:19px;
+    padding: 15px 25px;
+}
 }
         
 @media only screen 
@@ -283,6 +288,10 @@ h3 {
     width:100px;
     height:100px;
     }
+    .alert, .alert-success, .alert-dismissible {
+    font-size:18px;
+    padding: 15px 10px;
+}
         
 }
 
