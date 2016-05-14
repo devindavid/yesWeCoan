@@ -8,6 +8,8 @@ html, body {
     font-family: 'Open Sans', sans-serif;
     background-color: #ADDCCF; 
     color: #1F344C;
+    -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 .container {
     width: 90%!important;
