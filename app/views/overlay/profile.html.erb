@@ -9,7 +9,7 @@
         Thanks so much for your support! Before posting to Facebook, feel free to copy the below text to use in the desctiption on Facebook.
         </h4>
         <button class="copyBttn" data-clipboard-target="#copyBox">
-        COPY DESCRIPTION TO CLIPBOARD
+        CLICK TO COPY DESCRIPTION TO CLIPBOARD
         </button>
         <h5 id="copyBox" class="fbcaption">
             I'm with Coan! Make sure to get out and vote for Brandon on Tuesday! To COANify your profile photo, visit http://coanformetrocouncil.com/coanify/. #YesWeCoan
@@ -32,3 +32,36 @@
 <script type="text/javascript">
 new Clipboard('.copyBttn');
 </script>
+<script type="text/javascript">
+    if (window.getSelection) {
+          if (window.getSelection().empty) {
+                function selectText("copyBox") {
+                    if (document.selection) {
+                        var range = document.body.createTextRange();
+                        range.moveToElementText(document.getElementById("copyBox"));
+                        range.select();
+                    } else if (window.getSelection) {
+                        var range = document.createRange();
+                        range.selectNode(document.getElementById("copyBox"));
+                        window.getSelection().addRange(range);
+                    }
+                };
+          } else if (this.getSelection().toString()==true) {
+                this.onClick(
+                    window.getSelection().removeAllRanges()
+                )
+          }
+          };
+    
+    function selectText("copyBox") {
+        if (document.selection) {
+            var range = document.body.createTextRange();
+            range.moveToElementText(document.getElementById("copyBox"));
+            range.select();
+        } else if (window.getSelection) {
+            var range = document.createRange();
+            range.selectNode(document.getElementById("copyBox"));
+            window.getSelection().addRange(range);
+        }
+    };
+    </script>
