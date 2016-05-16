@@ -35,14 +35,14 @@ new Clipboard('.copyBttn');
 <script type="text/javascript">
     if (window.getSelection) {
           if (window.getSelection().empty) {
-                function selectText("copyBox") {
+                function selectText('copyBox') {
                     if (document.selection) {
                         var range = document.body.createTextRange();
-                        range.moveToElementText(document.getElementById("copyBox"));
+                        range.moveToElementText(document.getElementById('copyBox'));
                         range.select();
                     } else if (window.getSelection) {
                         var range = document.createRange();
-                        range.selectNode(document.getElementById("copyBox"));
+                        range.selectNode(document.getElementById('copyBox'));
                         window.getSelection().addRange(range);
                     }
                 };
@@ -53,14 +53,14 @@ new Clipboard('.copyBttn');
           }
           };
     
-    function selectText("copyBox") {
+    function selectText('copyBox') {
         if (document.selection) {
             var range = document.body.createTextRange();
-            range.moveToElementText(document.getElementById("copyBox"));
+            range.moveToElementText(document.getElementById('copyBox'));
             range.select();
         } else if (window.getSelection) {
             var range = document.createRange();
-            range.selectNode(document.getElementById("copyBox"));
+            range.selectNode(document.getElementById('copyBox'));
             window.getSelection().addRange(range);
         }
     };
