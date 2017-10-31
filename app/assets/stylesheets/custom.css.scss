@@ -11,6 +11,7 @@ html, body {
     -webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
     letter-spacing: .01em;
+    overflow-x: hidden;
 }
 .container {
     width: 90%!important;
