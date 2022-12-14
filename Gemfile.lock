@@ -102,7 +102,7 @@ GEM
       addressable
       faraday
       multi_json
-    loofah (2.4.0)
+    loofah (2.19.1)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
     mail (2.6.3)
